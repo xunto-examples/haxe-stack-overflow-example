@@ -1,6 +1,6 @@
 {
     "haxe.configurations": [
-        ["build.hxml"],
+        ["common.hxml"],
     ],
     "haxe.displayServer": {
         "arguments": ["-v"],

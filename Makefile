@@ -2,11 +2,14 @@ ensure_haxe_repo:
 	haxelib newrepo
 
 setup_haxe: ensure_haxe_repo
-	haxelib install build.hxml --always
+	haxelib install common.hxml --always
 
 cleanup_build:
 	rm -rf out
 
-build: cleanup_build setup_haxe
-	haxe build.hxml
+build_java: cleanup_build setup_haxe
+	haxe build_java.hxml
+
+build_python: cleanup_build setup_haxe
+	haxe build_python.hxml
 	

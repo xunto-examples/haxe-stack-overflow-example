@@ -1,0 +1,5 @@
+common.hxml
+
+-D fast_cast
+-L hxjava
+--java out/java/

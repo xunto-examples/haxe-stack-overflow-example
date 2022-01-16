@@ -4,7 +4,3 @@
 -D analyzer-optimize
 
 stackoverflow.Main
-
--D fast_cast
--L hxjava
---java out/java/

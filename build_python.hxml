@@ -1,0 +1,4 @@
+common.hxml
+
+-D python_version=3.9
+-python out/python/src/cofdsystem/haxe_build.py
