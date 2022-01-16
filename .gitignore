@@ -1,0 +1,9 @@
+/.haxelib/
+/.idea/
+/out/
+/node_modules/
+/dist/
+/build/
+/PyPI/
+/.gradle/
+/yarn.lock
