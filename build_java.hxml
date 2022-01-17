@@ -1,3 +1,5 @@
 common.hxml
 
+-L hxjava
+
 --java out/java/
