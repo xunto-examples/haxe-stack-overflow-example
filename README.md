@@ -1,6 +1,6 @@
 # haxe-stack-overflow-example
 
-# Java target - stack overflow
+## Java target - stack overflow
 ```
 make build_java
 ```
